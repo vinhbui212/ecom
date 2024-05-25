@@ -17,7 +17,7 @@ import java.util.function.Function;
 
 @Service
 public class JwtService {
-    private final String SECRET_KEY = "z4T1Rd5lrunK3Bk5vy48gxlr0GzQ4Z2tvDwESHDP0X2zmaV4dml5cygRWhTB8Tee";
+    private final String SECRET_KEY = "dodaihocptit==============================================dodaihocptit";
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
     }
